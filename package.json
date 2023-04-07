@@ -18,7 +18,8 @@
     "build:dev": "webpack --mode=development --progress",
     "watch": "webpack --mode=development --watch --progress",
     "serve": "webpack serve --config webpack.serve.config --progress",
-    "test:pack": "npx npm-packlist"
+    "test:pack": "npx npm-packlist",
+    "prepare": "npm run build"
   },
   "sideEffects": [
     "lib/*",
